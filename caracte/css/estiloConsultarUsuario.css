@@ -1,0 +1,48 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css?family=Abel|Aguafina+Script|Artifika|Athiti|Condiment|Dosis|Droid+Serif|Farsan|Gurajada|Josefin+Sans|Lato|Lora|Merriweather|Noto+Serif|Open+Sans+Condensed:300|Playfair+Display|Rasa|Sahitya|Share+Tech|Text+Me+One|Titillium+Web');
+
+body {
+/* 	background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%); */
+
+	background-attachment: fixed;
+	background-size:cover;
+	margin: 0;
+}
+
+
+
+#container button {
+	background-image: linear-gradient(to left, rgba(123, 211, 65, 0.75) 0%, rgba(8, 133, 14, 0.86) 100%);
+	box-shadow: 0 6px 25px -5px #df91fb;
+	font-family: 'Abel', sans-serif;
+	padding: 0.5em 1.9em;
+	margin: 0.5em 0 0 0;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 1em;
+	outline: none;
+	border: none;
+	transition: 0.3s linear;
+
+}
+#container button:hover{transform: translatey(2px);}
+#container button:active{transform: translatey(5px);}
+
+#boton{
+	background-image: linear-gradient(to top, rgba(205, 156, 242, 0.40) 0%, rgba(246, 255, 255, 0.71) 100%);
+	box-shadow: 0 15px 30px 1px rgba(5, 238, 24, 0.31);
+	text-align: center;
+	border-radius: 10px;
+	margin: 3em auto;
+	background: rgba(255, 255, 255, 0.95);
+	height: 510px;
+	width: 480px;
+	padding: 1em;
+	
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;	
+}
